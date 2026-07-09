@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+}
+
+.edit-header {
+    display: flex ;
+    flex-direction: row;
+    width: 80%;
+    margin: 10px 10%;
+    left: 10%;
+    border-bottom: 1px solid #fff;
+}
+  
+.edit-content {
+    background: transparent ;
+    margin: 0 10%;
+    margin-bottom: 10%;
+}
+
+.profile-edit {
+    display: flex;
+    max-width: 90%;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    gap: 2em;
+    padding: 20px;
+}
+
+.profile-edit label{
+    font-size: 20px;
+}
+  
+.profile-avatar {
+    height: 100px;
+    width: 100px;
+    background-color: #1dd4c2;
+    border-radius: 50%;
+    position: relative;
+}
+  
+.avatar-icon {
+    position: relative;
+    justify-content: center;
+    top:35%;;
+    font-size: 20px;
+}
+
+.cover-photo {
+    width: 400px;
+    height: 200px;
+    background-color: #7d6bc3;
+    border-radius: 12px;
+    position: relative;
+}
+  
+.cover-icon {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 20px;
+}
+  
+.form-section{
+    width: 100%;
+    position: left;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.form-section label {
+    display: flex;
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+.name-edit {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.name-edit label {
+    margin-top: 1em;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: -20%;
+}
+  
+.name-edit input {
+    left: -25%;
+    width: 100%;
+    height: 8%;
+    padding: 1rem 1rem;
+    margin-top: 0.5em;
+    place-items: left;
+    background-color: #2d244a;
+    font-size: 16px;
+    border: 1px solid #2d244a;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+}
+
+.name-edit input:focus {
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.category-tags {
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 0.5em;
+    margin-left: 5%;
+}
+
+.form-section textarea {
+    width: 90%;
+    padding: 0.5rem;
+    place-items: left;
+    margin-top: 0.5em;
+    background-color: #2d244a;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-section textarea:focus {
+    background: transparent;
+    border: 2px solid white;
+}
+  
+.tag {
+    height: fit-content;
+    justify-content: center;
+    background-color: #7d6bc3;
+    padding: 3px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.tag span {
+    height: 10px;
+    width: 10px;
+    align-items: center;
+}
+  
+.cms-header{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -10%;
+    border-bottom: 1px solid #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+.cms-section {
+    display: flex;
+    gap: 1em;
+    margin: 10px 10%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.cms-section a{
+    color: #fff;
+    text-decoration: none;
+    background: #2d244a;
+    height: 250px;
+    width: 100px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.cms-section a span{
+    margin-top :100%;
+}
+
+.input {
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #2d244a;
+    text-decoration: none;
+}
+  
+.commission-card {
+    width: 150px;
+    background-color: #2d244a;
+    padding: 1em;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+}
+  
+.image-placeholder {
+    width: 100%;
+    height: 80px;
+    background-color: #555;
+    margin-bottom: 1em;
+}
+
+.schedule-header{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -10%;
+    border-bottom: 1px solid #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 20% ;
+    margin-right: 20%;
+    margin-top: 2em;
+    border-radius: 8px;
+}
+
+.schedule-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: #2d244a;
+    padding: 1em;
+    border-radius: 8px;
+    position: relative;
+}
+  
+.schedule-icon, .delete-icon {
+    font-size: 20px;
+}
+  
+.delete-icon {
+    margin-left: auto;
+    cursor: pointer;
+}
+  
+.confirm-btn {
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 10%;
+    background-color: #7d6bc3;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 30%;
+}
+
+.confirm-btn:hover {
+    background-color: white;
+    color: #2e0249;
+}
+
+
+.btn-open-popup {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    justify-content: center;
+    background: #2d244a;
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    position: relative;
+    text-decoration: none;
+    border: none;
+}
+
+.input-container{
+    width: 100%;  
+    position: left;
+    justify-content: center;
+    padding: 10px 20%;
+}
+
+.edit-content h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.date {
+    display: flex;
+    color: #fff;
+    text-align: left;
+    padding:10px 0;
+}
+
+.date label {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.date input{
+    width: 80%;
+    align-items: flex-end;
+    padding: 10px 30px;
+    color: #2e0249;
+    background: white;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.time {
+    display: flex;
+    color: #fff;
+    padding:10px 0;
+    text-align: left;
+}
+
+.time label {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.time input{
+    width: 80%;
+    align-items: flex-end;
+    padding: 10px 30px;
+    color: #2e0249;
+    background: white;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.popup-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.cancle-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #1dd4c2;
+    border-radius: 10px;
+    background: transparent;
+    color: #1dd4c2;
+}
+
+.cancle-btn:hover {
+    border: 1px solid #1dd4c2;
+    background: #1dd4c2;
+    color: white;
+}
+
+.ok-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #7d6bc3;
+    border-radius: 10px;
+    background: #7d6bc3;
+    color: #fff;
+}
+
+.ok-btn:hover {
+    border: 1px solid white;
+    background: white;
+    color: #7d6bc3;
+}

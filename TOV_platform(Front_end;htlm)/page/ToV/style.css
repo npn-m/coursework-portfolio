@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+}
+
+body {
+    background-color: #1c0b2b;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.image {
+    width: auto;
+    height: 40px;
+}
+
+.profile-acc {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+    justify-content: space-between;
+    padding: 7px 0;
+    background-color: #1c0b2b;
+    border-bottom: 1px solid white;
+}
+
+.navbar ul{
+    position: relative;
+    display: flex;
+    padding: 0 15px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar t {
+    padding: 0 0.5rem;
+  
+}
+
+.navbar ul a {
+    padding: 2px 2px;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: bold ;
+    font-style: normal;
+}
+
+.navbar t :hover{
+    text-decoration-line: underline;
+}
+
+.search-login {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    align-content: space-between;
+}
+
+.search {
+    position: relative;
+    width: auto;
+    justify-content: center;
+    padding-right: 10px;
+}
+  
+.search input {
+    justify-self: center;
+    background: transparent;
+    border: 1px solid #8f44fd;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 8px;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Outfit"sans-serif;
+    color: #8f44fd;
+    transition: 0.3s;
+}
+  
+.search input:focus {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+  
+.search input:focus ~ button {
+    background: #8f44fd;
+}
+  
+.search button {
+    position: absolute;
+    border: 0;
+    top: 14px;
+    height: 28px;
+    width: 28px;
+    background: #8f44fd;
+    color: rgb(255 255 255 / 96%);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: grid;
+    place-items: center;
+    right: 0;
+    translate: 0 -50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search button .material-symbols-outlined {
+    font-size: 15px;
+  }
+  
+  .search .icon.hidden {
+    opacity: 0;
+  }
+  
+  .search .spinner {
+    position: absolute;
+    opacity: 0;
+    top: auto;
+    left: 50%;
+    translate: -50% -50%;
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1.75px solid #8f44fd;
+    border-top-color: rgb(255 255 255 / 96%);
+    animation: spin 0.75s infinite linear;
+  }
+  
+  .search .spinner.visible {
+    opacity: 1;
+  }
+  
+  @keyframes spin {
+    100% {
+      rotate: 1turn;
+    }
+  }
+
+.login {
+    width: 100%;
+    padding: 5px 5px ;
+    border: 2px solid #00ffa3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: bold ;
+    font-style: normal;
+    background-color: transparent;
+    color: white;
+}
+
+
+.signup {
+    width: 100%;
+    padding: 5px 5px ;
+    border: 2px solid #8f44fd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: bold ;
+    font-style: normal;
+    background-color: #8f44fd;
+    color: white;
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 5px 5px ;
+    border: 2px solid #8f44fd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: bold ;
+    font-style: normal;
+    background-color: #8f44fd;
+    color: white;
+}

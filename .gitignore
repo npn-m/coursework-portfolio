@@ -1,0 +1,19 @@
+# Node / JavaScript
+node_modules/
+.env
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# Java & IDEs
+*.class
+.metadata/
+.project
+
+# OS / Editor temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

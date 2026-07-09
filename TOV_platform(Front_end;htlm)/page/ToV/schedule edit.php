@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="edit.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img class="image" src="logo.png"></img>
+            <ul>
+                <span class="material-symbols-outlined">home</span><t><a href="homepage.php">HOME</a></t>
+                <t><a href="#">VTUBER</a></t>
+                <t><a href="#">ARTIST</a></t>
+                <div class="search-login">
+                    <div class="search">
+                        <input type="text" placeholder="Search" required />
+                        <button>
+                        <span class="icon material-symbols-outlined">search</span>
+                        <span class="spinner"></span>
+                        </button>
+                    </div>
+                    
+                </div>
+                <t><a href="login.php">
+                    <button class="login">Log in</button>
+                </a></t>
+                <t><a href="signup.php">
+                    <button class="signup">Sign Up</button>
+                </a></t>
+                <img class="profile-acc" src="51518.jpg"></img>
+            </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="edit-header"><h1><span class="material-symbols-outlined">edit_square</span> Schedule</h1></div>
+        <div class="edit-content">
+            <h3> Date / Time of your next live stream.</h3>
+            <div class="input-container">
+                <div class="date">
+                    <label>DATE</label>
+                    <input type="date">
+                </div>
+                <div class="time">
+                    <label>TIME</label>
+                    <input type="time">
+                </div>
+                <div class="popup-btn">
+                    <a href="vtuber-edit.php"><button class="cancle-btn">Cancel</button></a>
+                    <a href="vtuber-edit.php"><button class="ok-btn">Ok</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>    

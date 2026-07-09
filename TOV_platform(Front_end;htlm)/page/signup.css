@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+}
+
+body {
+    background-color: #1c0b2b;
+    color: white;
+}
+
+.signup-section {
+    margin: 0.5rem 0;
+}
+
+.signup-section h2 {
+    background-color: transparent;
+    padding: 0.5rem ;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.signup-box {
+    background-color: #00ffa3;
+    padding: 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    color: #2e0249;
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.signup-box h{
+    background-color: transparent;
+    padding-top: 2rem ;
+    color: #2e0249;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.signup-box label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.signup-box input {
+    height: 40px;
+    place-items: left;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    padding:0 15px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    color: #2e0249;
+    transition: 0.3s;
+  }
+
+  ::placeholder {
+    color: #2e0249;
+    opacity: 50%;
+  }
+  
+.signup-box input:focus {
+    color: #2e0249;
+    background: white;
+    border-color: white;
+  }
+  
+.signup-box input:focus ~ span {
+    color: #2e0249 ;
+}
+
+.signup-box select {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    color: #2e0249;
+    background: transparent;
+    width: 100%;
+    padding: 0 12px;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.signup-box option{
+    color: #2e0249;
+    margin-right: 15px;
+}
+
+.signup-box select:focus {
+    color: #2e0249;
+    background: #ffffff;
+    border: 2px solid #2e0249;
+    border-radius: 5px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+  
+.user input {
+    height: 40px;
+    place-items: left;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+ 
+  .user input:focus {
+    color: white;
+    background: white;
+    border-color: white;
+  }
+  
+  .user input:focus ~ span {
+    color: #2e0249;
+  }
+  
+  .user span {
+    position: absolute;
+    top: 45%;
+    left: 6px;
+    place-items: center;
+    margin-right: 6px;
+    translate: 0 -50%;
+    font-size: 20px;
+    transition: 0.3s;
+    color: #ffffff;
+  }
+
+.password {
+    position: relative;
+    width: 100%;
+}
+  
+.password input {
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    transition: 0.3s;
+}
+  
+.password input:focus {
+    color: #2e0249;
+    background: white;
+    border-color: white;
+}
+  
+.password input:focus ~ span {
+    color: #2e0249;
+}
+
+.password span {
+    position: absolute;
+    top: 45%;
+    left: 6px;
+    margin-right: 6px;
+    translate: 0 -50%;
+    font-size: 20px;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.submit-btn {
+    background-color: #2e0249;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+}

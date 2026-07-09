@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+}
+
+::placeholder {
+  color: white;
+  opacity: 50%;
+}
+
+.login-section {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3% ;
+    padding-bottom: 1rem;
+    border-bottom : 1px solid white;
+    margin: 0 20%;
+}
+
+.login-section h {
+    font-family: "Outfit", sans-serif;
+    font-size: 48px;
+    font-weight: bold ;
+    font-style: normal;
+}
+
+.login-section label {
+    display: block;
+    padding-top: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 500 ;
+    font-style: normal;
+}
+
+.login-box p f {
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: lighter ;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.login-box p :hover {
+  text-decoration-line: underline;
+}
+
+.login-box {
+    width: 520px;
+    height: 328px;
+    background-color: #663399;
+    padding-top: 1rem;
+    padding: 0 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+}
+
+.login-section button {
+    background-color: #4a0072;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+}
+
+.login-section button:hover {
+    background-color: white;
+    color: #4a0072;
+}
+
+.user {
+    position: relative;
+    width: 100%;
+}
+  
+.user input {
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    transition: 0.3s;
+}
+  
+.user input:focus {
+    border-color: #4a0072;
+}
+  
+.user input:focus ~ span {
+    color: #4a0072 ;
+}
+  
+.user span {
+    position: absolute;
+    top: 45%;
+    left: 6px;
+    place-items: center;
+    margin-right: 6px;
+    translate: 0 -50%;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+.user button {
+    background: transparent;
+    border: 1px;
+    position: absolute;
+    top: 16%;
+    place-items: center;
+    right: 0;
+    padding: 0;
+    height: 40px;
+    width: 30px;
+    opacity: 0;
+    color: white;
+    cursor: pointer;
+}
+  
+.user button.visible {
+    opacity: 1;
+}
+  
+@keyframes shake {
+    25% {
+      margin-left: -3px;
+    }
+    75% {
+      margin-left: 3px;
+    }
+}
+
+.password {
+    position: relative;
+    width: 100%;
+  }
+  
+.password input {
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .password input:focus {
+    border-color: #4a0072;
+  }
+  
+  .password input:focus ~ span {
+    color: #4a0072;
+  }
+  
+  .password input:invalid ~ span {
+    animation: shake 0.125s 4 both;
+  }
+  
+.password span {
+    position: absolute;
+    top: 45%;
+    left: 6px;
+    margin-right: 6px;
+    translate: 0 -50%;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+  .signup-section {
+    margin: 1.5rem 0;
+}
+
+.signup-section h {
+    font-family: "Outfit", sans-serif;
+    font-size: 48px;
+    font-weight: bold ;
+    font-style: normal;
+}
+
+.signup-section button {
+    background-color: transparent;
+    padding: 0.75rem 1.5rem;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    border: 3px solid #00ffa3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color: #00ffa3;
+    color: #4a0072;
+    border-color: #4a0072;
+}
+
+ 

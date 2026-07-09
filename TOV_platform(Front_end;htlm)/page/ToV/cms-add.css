@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+}
+  
+.new-commission-content {
+    margin: 0.5rem 10%;
+}
+
+
+
+.cms-info{
+    width: 100%;  
+    position: left;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.cms-info label {
+    display: flex;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+.info-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-input label {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+.info-input input {
+    border: 1px solid white;
+    background: #2d244a;
+    border-radius:8px ;
+    place-items: left;
+    width: 85%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px; 
+    outline: none;
+    color: #fff;
+}
+
+.info-input input:focus {
+    border: 1px solid #7d6bc3;
+}
+
+.price-description {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+  
+.price-field {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-field label{
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+.price-field input{
+    border: 1px solid white;
+    border-radius:8px ;
+    background: #2d244a;
+    width: 85%;
+    height: fit-content;
+    place-items: left;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+    outline: none;
+}
+
+.price-field input:focus {
+    border: 1px solid #7d6bc3;
+}
+
+.description-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.description-field label {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+.description-field textarea{
+    border: 1px solid white;
+    border-radius:8px ;
+    width: 100%;
+    height: 100px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+    place-items: left;
+    outline: none;
+}
+
+.description-field textarea:focus {
+    border: 1px solid #7d6bc3;
+}
+
+.work-example-section {
+    border-top: 1px solid #fff;
+    margin-top: 2em;
+}
+
+.work-example-section label{
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.work-example {
+    width: 100%;
+    height: 150px;
+    background-color: #2d244a;
+    border-radius: 12px;
+    position: relative;
+    margin-top: 0.5em;
+}
+  
+.work-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 20px;
+}
+  
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+  
+.cancel-btn1, .ok-btn1 {
+    width: 100%;
+    padding: 1em;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+  
+.cancel-btn1 {
+    background-color: transparent;
+    border: 2px solid #00ffa3;
+    border-radius: 8px;
+    color: #00ffa3;
+}
+
+.cancel-btn1:hover {
+    background-color: #00ffa3;
+    border: 2px solid #00ffa3;
+    border-radius: 8px;
+    color: #2e0249;
+}
+  
+.ok-btn1 {
+    background-color: #7d6bc3;
+    border: 2px solid #7d6bc3 ;
+    color: #fff;
+}
+
+.ok-btn1:hover {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: #2e0249;
+}
+  

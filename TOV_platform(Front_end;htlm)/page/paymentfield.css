@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+}
+
+body {
+    background-color: #1c0b2b;
+    color: white;
+    text-align: center;
+}
+
+.payment-section {
+    margin: 1rem 0;
+}
+
+.payment-section h2{
+    background-color: transparent;
+    padding: 0.5rem ;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.payment-box {
+    background-color: #f0f0f5;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    color: #2e0249;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.payment-box label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.payment-box input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #4a0072;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+}
+
+.payment-box input:focus {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+    color: #4a0072;
+}
+
+.card-info {
+    margin-top: 20px;
+    border-top: 1px solid #6a0dad;
+    padding-top: 1rem;
+}
+
+.card-info h3 {
+    font-size: 36px;
+    margin-bottom: 0rem;
+    font-weight: bold;
+    color: #2e0249;
+}
+
+.card-info span {
+    font-weight: bold;
+    color: #4a0072;
+    font-size: 16px;
+}
+
+.card-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2e0249;
+    padding: 0.5rem 0;
+}
+
+.card-info label {
+    padding: 0.5rem 0;
+}
+
+.card-info input{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #4a0072;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+}
+
+.card-info input:focus{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
+    color: #4a0072;
+}
+
+.card-number {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-number label {
+    padding: 0 0.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-number input {
+    width: 22%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #4a0072;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+}
+
+.card-number input:focus {
+    width: 22%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
+    color: #4a0072;
+}
+
+.exdate {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.exdate label {
+    padding: 0 0.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.exdate input {
+    width: 22%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #4a0072;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+}
+
+.exdate input:focus {
+    width: 22%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
+    color: #4a0072;
+}
+
+.submit-btn {
+    background-color: #6a0dad;
+    color: white;
+    font-size: 24px;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.payment-box button:hover {
+    background-color: #00ffa3;
+}

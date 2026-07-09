@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" , sans-serif;
+  }
+  
+body {
+    background-color: #1c0b2b;
+    color: white;
+    text-align: center;
+}
+  
+.profile-header {
+    height: fit-content;
+    margin: 0 5%;
+}
+  
+.banner {
+    width: 100%;
+    height: 200px;
+    background-color: #7d6bc3;
+}
+  
+.profile-info {
+    height: fit-content;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-right: 0%;
+}
+  
+.avatar {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 120px;
+    height: 120px;
+    background-color: #1dd4c2;
+    border-radius: 100%;
+}
+
+.details {
+    justify-content: left;
+    padding: 0 20px;
+    color: white;
+}
+
+.details h2 {
+    font-size: 24px;
+ }
+
+.details h2 span {
+    font-weight: 400;
+}
+
+.details h2 a{
+    position: absolute;
+    right: -3%;
+    top: -4%;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+ }
+  
+.details span {
+    font-size: 16px;
+}
+ 
+.details p {
+    font-size: 14px;
+    justify-content: left;
+    padding-top: 0%;
+    margin-top: -9%;
+    margin-left: -5%;
+    font-weight: 200;
+    opacity: 60%;
+ }
+  
+.subscribe-btn {
+    position: relative;
+    left: -25%;
+    height: fit-content;
+    padding: 0.5em 2em;
+    border: 2px;
+    border-color: #7d6bc3;
+    background-color: #7d6bc3;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.content {
+    padding: 1rem;
+}
+  
+.section-title {
+    padding: 10px 0;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    margin: 0 5%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.section-title a {
+    font-size: 18px;
+    padding: 0px 12%;
+    color: white;
+    text-decoration: none;
+    font-family: "Outfit" , sans-serif;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+  
+.commission-section {
+    padding-top: 20px;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+  
+.commission-list {
+    width: 200px;
+    background-color: #2d244a;
+    padding: 1em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.commission-list p{
+    padding: 2px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.commission-list p1{
+    padding: 2px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    left: -5px;
+}
+  
+.image-placeholder {
+    width: 100%;
+    height: 100px;
+    background-color: #555;
+    margin-bottom: 1em;
+}
+  
+.about-section {
+    padding: 20px 25px;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin:  2rem 10% ;
+    background-color: #2d244a;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.donate-btn {
+    position: relative;
+    left: -25%;
+    justify-content: center;
+    height: fit-content;
+    padding: 0.5em 2em;
+    background-color: #00ffa3;
+    color: #1c0b2b;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none;
+}
+
+
+.donate-btn span {
+    font-size: 18px;
+    font-weight: 500;
+    top: 0%;
+    bottom: 0%;
+}
+
+.clip-section {
+    padding-top: 20px;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+  
+.clip-list {
+    width: 200px;
+    background-color: #2d244a;
+    padding: 1em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.clip-list p{
+    padding: 2px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.clip-list p1{
+    padding: 2px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    left: -5px;
+}
